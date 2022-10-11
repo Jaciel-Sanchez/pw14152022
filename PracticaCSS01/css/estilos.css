@@ -1,0 +1,27 @@
+body {
+    font-size: 16 px; /*1em*/
+    margin: 0px auto;
+
+    max-width: 1024px;   
+}
+header{
+    background:  #d1e3ee
+}
+header nav{
+    background:  #026dc6;
+    padding: 2px 0px;
+}
+header nav ul li{
+   /* border: 1px solid red; */
+    color: azure;
+    display: inline-block;
+    margin: 20px;
+}
+header nav form{
+    float: right;
+    margin-right: 30px;
+    margin: -50px;
+}
+#Logo{
+    margin-top: -150px;
+}
