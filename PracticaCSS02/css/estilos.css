@@ -1,0 +1,113 @@
+body{
+    border: 1px solid orange;
+    font-size: 16px;
+    margin: 0px auto;
+    /*Recomendacion del cliente*/
+    max-width: 1078px;
+    min-width: 1078px;
+}
+header input{
+    float: right;
+    margin-right: -230px;
+    margin-top: 15px;
+}
+header nav{
+    margin-left: 220px;
+}
+header nav ul li{
+    border-bottom: 1px solid lightgray;
+    color: lightgray;
+    display: inline-block;
+    font-size: 1.8em;
+    margin-right: 15px;
+}
+#bgoffer{
+    left: -35px;
+    position: relative;
+    top: -406px;
+}
+#granthams{
+    margin-left: 25px;
+    margin-top: 25px;
+}
+#paint{
+    float: right;
+}
+#primerSeccion{
+    margin-left: 15px;
+}
+#secc01art02 ul{
+    list-style: none;
+    margin-left: -40px;
+}
+#secc01art02 ul li::before{
+    content: "•";
+    color: #FF0099;
+}
+#secc03art04{
+    /*border: 1px solid red;*/
+    padding-top: 40px;
+    margin-top: 40px;
+}
+#segundaSeccion{
+    margin-top: 15px;
+}
+#segundaSeccion article{
+    text-align: right;
+    margin-right: 165px;
+}
+#terceraSeccion article{
+    display: inline-block;
+    vertical-align: top;
+    width: 23%;
+}
+#terceraSeccion article img{
+    vertical-align: middle;
+}
+#cuartaSeccion{
+    background-color: #4267B3;
+    margin-top: 50px;
+    
+}
+#cuartaSeccion article{
+    display: inline-block;
+    vertical-align: top;
+    color: white;  
+}
+#seccion04art01 {
+    padding-top: 60px;
+    width: 38%;
+    text-align: center;
+}
+#seccion04art02 {
+    padding-top: 60px; 
+    vertical-align: top;
+    width: 35%;
+    text-align: center;
+}
+#seccion04art03 {
+    padding-top: 80px;
+    vertical-align: top;
+    width: 20%;
+}
+#seccion04art03 input{
+    margin-left: 80px;
+}
+.colorazul{
+    color: #4267B3;
+}   
+.colorrosa{
+    color: #FF0099;
+}
+.colorverde{
+    color: #8bc500;
+}
+.letragrande{
+    font-size: 3.5em;
+}
+.letramediana{
+    font-size: 2em;
+}
+.nito{
+    font-weight: bold;
+}
