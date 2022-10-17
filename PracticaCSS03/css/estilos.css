@@ -1,0 +1,68 @@
+body {
+    border: 1px solid red;
+    font-size: 16 px; /*1em*/
+    margin: 0px auto;
+    max-width: 1024px;   
+}
+header{
+    background:  white
+}
+header img{
+    max-width: 20%;
+    max-height: 20%;
+    margin-left: 15px;
+}
+header nav{
+    background:  #FF6600;
+    border: 1px solid red;
+}
+header nav ul li{
+   
+    color: azure;
+    display: inline-block;
+    margin-right: 25px;
+    padding: -5px;
+}
+header nav{
+    border-radius: 5px;
+    margin-top: 5px;
+    padding-top: 0px;
+}
+#red1{
+    float: right;
+    margin-top: -25px;
+    margin-right: 25px;
+}
+#red2{
+    float: right;
+    margin-top: -25px;
+}
+#red3{
+    float: right;
+    margin-top: -25px;
+    
+}
+#primeraSeccion{
+    
+    margin-left: 15px;
+}
+#primeraSeccion nav{
+    background: #FF6600;
+    margin:20px
+}
+#secc01art01{
+    
+    border-bottom: 1px solid lightgray;
+    color: lightgray;
+    display: inline-block;
+    width: 65%;
+}
+#secc01art02{
+    
+    display: inline-block;
+    width: 32%;
+}
+
+#publicidad{
+    
+}
