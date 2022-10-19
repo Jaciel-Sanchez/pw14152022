@@ -1,0 +1,67 @@
+body{
+    border: 1px solid black;
+    font-size: 16px;
+    margin: 0px auto;
+    max-width: 1024px;
+    background-color: lightgray;
+}
+header {
+    background-color:#3b5998;
+}
+header nav{
+    background-color: gray;
+
+}
+header img{
+    margin-left: 365px;
+    max-width: 210px;
+    max-height: 210px;
+}
+header nav ul li{
+    display: inline-block;
+    list-style: none;
+}
+header nav ul li img{
+    max-width: 80px;
+    max-height: 80px;
+    white-space: 10px;
+
+}
+/*----------SECCION IZQUIERDA----------*/
+
+/*-----ARTICLE 01-----*/
+#izqSeccion{
+    display:inline-block;
+    margin-left: 15px;
+    padding-right: 60px;
+}
+#seccIzqart01{
+    background-color: rgb(14, 14, 99);
+    color: white;
+}
+#seccIzqart01 header{
+    background-color: #3a599b;
+}
+#seccIzqart01 header img{
+    margin-left: 5px;
+    max-width: 110%;
+    max-height: 110%;
+}
+#seccIzqart01 ul{
+    list-style: none;
+}
+/*-----ARTICLE 02-----*/
+#secIzqart02{
+    background-color: white;
+    border: 1px solid red;
+}
+#seccIzqart02 header{
+    background-color: #3a599b;
+    padding-top: -20px;
+    
+}
+#seccIzqart02 header img{
+    max-width: 50%;
+    max-height: 50%;
+    margin-left: 0px auto;
+}
