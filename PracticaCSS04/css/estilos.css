@@ -6,62 +6,106 @@ body{
     background-color: lightgray;
 }
 header {
-    background-color:#3b5998;
+    background-color: #245d92;
+   
 }
 header nav{
     background-color: gray;
-
+    
 }
 header img{
-    margin-left: 365px;
+    margin-left: 395px;
     max-width: 210px;
     max-height: 210px;
 }
-header nav ul li{
+header nav img{
     display: inline-block;
-    list-style: none;
+    max-width: 90px;
+    max-height: 90px;
 }
-header nav ul li img{
-    max-width: 80px;
-    max-height: 80px;
-    white-space: 10px;
+#not{
+    float: right;
+    margin-right: 280px;
+    margin-top: 15px;
+}
+#msj{
+    float: right;
+    margin-right: 160px;
+    margin-top: -38px;
+}
+#aju{
+    float: right;
+    margin-right: 40px;
+    margin-top: -42px;
+}
 
-}
+
 /*----------SECCION IZQUIERDA----------*/
 
 /*-----ARTICLE 01-----*/
 #izqSeccion{
+    margin-top: 15px;
     display:inline-block;
     margin-left: 15px;
     padding-right: 60px;
+    width: 40%;
 }
 #seccIzqart01{
-    background-color: rgb(14, 14, 99);
+    background-color: #1e4974;
     color: white;
+    width: 51.5%;
 }
 #seccIzqart01 header{
-    background-color: #3a599b;
+    background-color:  #245d92;
 }
 #seccIzqart01 header img{
-    margin-left: 5px;
-    max-width: 110%;
-    max-height: 110%;
+    margin-left: 0px;
+    max-width: 10;
+    max-height: 10;
 }
 #seccIzqart01 ul{
-    list-style: none;
+    margin-left: 0px;
 }
 /*-----ARTICLE 02-----*/
-#secIzqart02{
+#seccIzqart02{
     background-color: white;
-    border: 1px solid red;
+    
+    width: 51.5%;
+    color: gray;
 }
 #seccIzqart02 header{
-    background-color: #3a599b;
-    padding-top: -20px;
-    
+    background-color: #245d92;
 }
 #seccIzqart02 header img{
-    max-width: 50%;
-    max-height: 50%;
-    margin-left: 0px auto;
+    margin-left: 0px;
+    margin-top: 0px;
+    max-width: 10;
+    max-height: 10;
+    
+}
+#barra1{
+    max-width: 205px;
+    max-height: 100px;
+}
+#barra2{
+    max-width: 205px;
+    max-height: 100px;
+}
+#barra3{
+    max-width: 205px;
+    max-height: 100px;
+}
+#barra4{
+    max-width: 205px;
+}
+
+/*-----SECCION DERECHA-----*/
+#derSeccion{
+    background-color: white;
+}
+
+#secDer01{
+    display: inline-block;
+    border: 1px solid red;
+    margin-top: 10px;
 }
