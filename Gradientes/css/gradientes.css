@@ -1,0 +1,12 @@
+article{
+    border-radius: 5px;
+    height: 50px;
+    margin-top: 10px;
+    width: 150px;
+}
+#uno{
+    /*Si no soporta gradiantes*/
+    background: red;
+
+    
+}

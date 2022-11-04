@@ -5,23 +5,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practica 04</title>
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="/css/estilos.css">
 </head>
 <body>
     <header>
-        <img src="img/logo.png" alt="">
+        <img src="/img/logo.png" alt="" id="logo">
         <nav>
-            <img src="img/notificaciones.png" alt="" id="not">
-            <img src="img/mensajes.png" alt="" id="msj">
-            <img src="img/ajustes.png" alt="" id="aju">
+            <ul>
+                <li><img src="img/notificaciones.png" alt=""></li>
+                <li><img src="img/mensajes.png" alt=""></li>
+                <li><img src="img/ajustes.png" alt=""></li>
+            </ul>
         </nav>
     </header>
-
-    <section id="izqSeccion">
-        <article id="seccIzqart01">
-            <header>
-                <img src="img/panel.PNG" alt="">
-            </header>
+    <section id="seccion01">
+        <article id="sec01art01">
+            <img src="/img/panel.PNG" alt="" id="panel">
             <ul>
                 <li>Example</li>
                 <li>Example</li>
@@ -35,81 +34,71 @@
                 <li>Example</li>
             </ul>
         </article>
-        <article id="seccIzqart02">
-            <header>
-                <img src="img/panelwpf.png" alt="" id="ejemplo">
-            </header>
-            Progress Bar
-            <img src="img/barra01.png" alt="" id="barra1">
-            <br>
-            Progress Bar
-            <img src="img/barra02.png" alt="" id="barra2">
-            <br>
-            Progress Bar
-            <img src="img/barra03.png" alt="" id="barra3">
-            <br>
-            Progress Bar
-            <img src="img/barra04.png" alt="" id="barra4">
+        <article id="sec01art02">
+            <img src="/img/logoprogress.png" alt="" id="logprogress">
+            <span id="progressText">
+                 Panel with Progress
+            </span><br>
+            Prograss Bar
+            <img src="img/barra01.png" alt="" class="barras"><br>
+            Prograss Bar
+            <img src="img/barra02.png" alt="" class="barras"><br>
+            Prograss Bar
+            <img src="img/barra03.png" alt="" class="barras"><br>
+            Prograss Bar
+            <img src="img/barra04.png" alt="" class="barras">
         </article>
     </section>
 
-    <section id="derSeccion">
-        <section id="secDer01">
-            <article>
-                <img src="img/cubo1.png" alt="">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+    <section id="seccion02">
+        <section>
+            <span>Simple Cubes</span><br>
+            <article id="verde">
+                <img src="img/cubo1.png" alt=""><br>
+                <span> Lorem ipsum dolor sit amet consectetur, adipisicing elit.</span>
             </article>
-            <article>
-                <img src="img/cubo02.png" alt="">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+            <article id="azul">
+                <img src="img/cubo02.png" alt=""><br>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             </article>
-            <article>
-                <img src="img/cubo03.png" alt="">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <article id="morado">
+                <img src="img/cubo03.png" alt=""><br>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             </article>
-            <article>
-                <img src="img/cubo04.png" alt="">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-            </article>
-        </section>
-        
-        <section id="secDer02">
-            <article>
-                <img src="img/panels.PNG" alt="">
+            <article id="rojo">
+                <img src="img/cubo04.png" alt=""><br>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
             </article>
         </section>
-
-        <section id="secDer03">
+        <section>
+            <span>Panels</span><br>
+            <article id="graficas">
+                <img src="/img/panels.png" alt="" id="graficas">
+            </article>
+        </section>
+        <section id="usuarios">
+            <span>Usuarios</span><br>
             <article>
-                <img src="/img/usuario01.png" alt="">
-                <br>
-                <span class="colorblanco letramediana">User Example</span>
-                <br>
+                <img src="/img/usuario01.png" alt=""><br>
+                User Example <br>
                 <input type="button" value="Send Message">
             </article>
             <article>
-                <img src="/img/usuario02.png" alt="">
-                <br>
-                <span class="colorblanco letramediana">User Example</span>
-                <br>
+                <img src="/img/usuario02.png" alt=""><br>
+                User Example <br>
                 <input type="button" value="Send Message">
             </article>
             <article>
-                <img src="/img/usuario03.png" alt="">
-                <br>
-                <span class="colorblanco letramediana">User Example</span>
-                <br>
+                <img src="/img/usuario03.png" alt=""><br>
+                User Example <br>
                 <input type="button" value="Send Message">
             </article>
             <article>
-                <img src="/img/usuario04.png" alt="">
-                <br>
-                <span class="colorblanco letramediana">User Example</span>
-                <br>
+                <img src="/img/usuario04.png" alt=""><br>
+                User Example <br>
                 <input type="button" value="Send Message">
             </article>
         </section>
     </section>
-    
 </body>
 </html>

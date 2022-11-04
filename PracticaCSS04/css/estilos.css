@@ -1,111 +1,186 @@
 body{
-    border: 1px solid black;
+    
     font-size: 16px;
     margin: 0px auto;
     max-width: 1024px;
-    background-color: lightgray;
+    max-height: 1024px;
+    background-color: #EFEFEF;
 }
-header {
-    background-color: #245d92;
-   
+header{
+    background-color: #235E92;
 }
+
+#logo{
+    position: relative;
+    margin-left: 35%;
+}
+
 header nav{
-    background-color: gray;
+    background-color: #EFEFEF;
+}
+
+header nav ul{
+    float: right;
+    margin: 0px;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin-left: -50px;
     
 }
-header img{
-    margin-left: 395px;
-    max-width: 210px;
-    max-height: 210px;
-}
-header nav img{
-    display: inline-block;
-    max-width: 90px;
-    max-height: 90px;
-}
-#not{
+
+header nav ul li img{
+    width: 60%;
     float: right;
-    margin-right: 280px;
-    margin-top: 15px;
-}
-#msj{
-    float: right;
-    margin-right: 160px;
-    margin-top: -38px;
-}
-#aju{
-    float: right;
-    margin-right: 40px;
-    margin-top: -42px;
 }
 
-
-/*----------SECCION IZQUIERDA----------*/
-
-/*-----ARTICLE 01-----*/
-#izqSeccion{
-    margin-top: 15px;
-    display:inline-block;
+#seccion01{
     margin-left: 15px;
-    padding-right: 60px;
-    width: 40%;
+    width: 23%;
 }
-#seccIzqart01{
-    background-color: #1e4974;
+
+#sec01art01{
+    margin-top: 55px;
+    width: 23%;
+}
+
+#sec01art01 ul{
+    background-color: #1E4972;
+    width: 186px;
     color: white;
-    width: 51.5%;
-}
-#seccIzqart01 header{
-    background-color:  #245d92;
-}
-#seccIzqart01 header img{
-    margin-left: 0px;
-    max-width: 10;
-    max-height: 10;
-}
-#seccIzqart01 ul{
-    margin-left: 0px;
-}
-/*-----ARTICLE 02-----*/
-#seccIzqart02{
-    background-color: white;
-    
-    width: 51.5%;
-    color: gray;
-}
-#seccIzqart02 header{
-    background-color: #245d92;
-}
-#seccIzqart02 header img{
-    margin-left: 0px;
-    margin-top: 0px;
-    max-width: 10;
-    max-height: 10;
-    
-}
-#barra1{
-    max-width: 205px;
-    max-height: 100px;
-}
-#barra2{
-    max-width: 205px;
-    max-height: 100px;
-}
-#barra3{
-    max-width: 205px;
-    max-height: 100px;
-}
-#barra4{
-    max-width: 205px;
+    font-size: 0.8em;
+    list-style-type: none;
 }
 
-/*-----SECCION DERECHA-----*/
-#derSeccion{
-    background-color: white;
+#sec01art01 ul li{
+    line-height: 25px;
+    margin-left: -20px;
 }
 
-#secDer01{
+#panel{
+    margin-bottom: -18px;
+}
+
+#sec01art02{
+    background-color: white;
+    width: 228px;
+}
+
+#logprogress{
+    vertical-align: middle;
+    width: 32px;
+    margin-bottom: 6px;
+}
+ #progressText{
+    background-color: #235E92;
+    margin-left: -6px;
+    padding-top: 10px;
+    padding-bottom: 7px;
+    padding-right: 100px;
+    color: white;
+    font-size: 0.77em;
+}
+
+.barras{
+    width: 225px;
+    margin-bottom: 10px;
+}
+
+#seccion02{
+    background-color: white;
+    border-radius: 10px;
+    width: 70%;
+    padding: 18px;
+    float: right;
+    margin-right: 15px;
+    margin-top: -605px;
+}
+
+#seccion02 section article{
     display: inline-block;
-    border: 1px solid red;
+    width: 23%;
+    margin-left: 10px;
     margin-top: 10px;
+}
+
+/*Colores*/
+#verde{
+    background-color: #1BA822;
+    border-radius: 3px;
+    text-align: center;
+    color: white;
+    padding: 18px 0px;
+}
+#verde img{
+    
+    width: 50px;
+    height: 50px;  
+}
+
+#azul{
+    background-color: #1B6DA9;
+    border-radius: 3px;
+    text-align: center;
+    color: white;
+    padding: 18px 0px;
+    margin-bottom: 10px;
+}
+
+#azul img{
+    width: 50px;
+    height: 50px;
+}
+
+#morado{
+    background-color: #7D1AA3;
+    border-radius: 3px;
+    text-align: center;
+    color: white;
+    padding: 18px 0px;
+    margin-bottom: 10px;
+}
+
+#morado img{
+    width: 50px;
+    height: 50px;
+}
+
+#rojo{
+    background-color: #A41B19;
+    border-radius: 3px;
+    text-align: center;
+    color: white;
+    padding: 18px 0px;
+    margin-bottom: 10px;
+}
+
+#rojo img{
+    width: 50px;
+    height: 50px;
+}
+
+#graficas {
+    width: 710px;
+}
+
+#usuarios article{
+    background-color: #4C6AB0;
+    font-size: 1.4em;
+    color: white;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+#usuarios article img{
+    width: 150px;
+    height: 150px;
+}
+
+#usuarios input{
+    background-color: #5EC2E0;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    padding: 6px;
 }
