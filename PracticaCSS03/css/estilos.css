@@ -1,68 +1,165 @@
-body {
-    border: 1px solid red;
-    font-size: 16 px; /*1em*/
+body{
+    font-size: 16px;
     margin: 0px auto;
-    max-width: 1024px;   
-}
-header{
-    background:  white
-}
-header img{
-    max-width: 20%;
-    max-height: 20%;
-    margin-left: 15px;
-}
-header nav{
-    background:  #FF6600;
-    border: 1px solid red;
-}
-header nav ul li{
-   
-    color: azure;
-    display: inline-block;
-    margin-right: 25px;
-    padding: -5px;
-}
-header nav{
-    border-radius: 5px;
-    margin-top: 5px;
-    padding-top: 0px;
-}
-#red1{
-    float: right;
-    margin-top: -25px;
-    margin-right: 25px;
-}
-#red2{
-    float: right;
-    margin-top: -25px;
-}
-#red3{
-    float: right;
-    margin-top: -25px;
-    
-}
-#primeraSeccion{
-    
-    margin-left: 15px;
-}
-#primeraSeccion nav{
-    background: #FF6600;
-    margin:20px
-}
-#secc01art01{
-    
-    border-bottom: 1px solid lightgray;
-    color: lightgray;
-    display: inline-block;
-    width: 65%;
-}
-#secc01art02{
-    
-    display: inline-block;
-    width: 32%;
+    min-width: 1024px;
+    max-width: 1024px;
 }
 
-#publicidad{
-    
+header div img{
+    display: block;
 }
+
+#logos{
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+
+#redes div{
+    display: inline-block;
+    width: 26px;
+    margin-right: 16px;
+}
+
+#redes{
+    float: right;
+    margin-top: -90px;
+    margin-right: 15px;
+}
+
+#imgThe{
+    width: 280px;
+}
+
+
+header nav{
+    border-radius: 10px;
+}
+
+header nav ul{
+    margin-left: -20px;
+    margin-bottom: -1px;
+}
+
+header nav ul li{
+    display: inline-block;
+    margin: 15px;
+}
+
+.cabecera{
+    background: #f87509;
+
+}
+
+.letrablanca{
+    color: white;
+}
+
+.letramediana{
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+    main > div{
+        display: inline-block;
+        width: 63%;
+        margin: 19px 5px 0px 13px;
+    }
+
+
+    .letrachica{
+        font-size: 0.8em;
+    }
+
+    .post{
+        margin-bottom: 15px;
+    }
+
+    .titulo{
+        color: gray;
+        display: block;
+        font-size: 2em;
+        font-weight: bold;
+        padding: 10px 0px;
+    }
+
+    .subtitulo{
+        display: inline-block;
+        margin-left: 5px;
+        vertical-align: top;
+        width: 65%;
+    }
+
+    .subtitulo input[type="button"]{
+        color: white;
+        background-color: rgb(201, 201, 201);
+        border: 1px solid rgb(201, 201, 201);
+        display: block;
+        margin: 15px 0 0;
+        font-weight: bold;
+        padding: 7px;
+        border-radius: 10px;
+    }
+
+    .subtituloMas{
+        border-radius: 8px;
+        box-shadow: 0px 3px 6px -4px rgb(115, 115, 115);
+        margin-bottom: -5px;
+        padding: 5px 0px;
+        text-indent: 10px;
+    }
+
+    aside{
+        display: inline-block;
+        width: 33%;
+        margin-top: 43px;
+        vertical-align: top;
+        text-align: center;
+    }
+
+    aside section article{
+        border-radius: 20px;
+        margin-bottom: 20px;
+        padding-bottom: 10px;
+        border: 1px solid lightgray;
+        box-shadow: -1px 1px 9px -1px rgba(0,0,0,0.2);
+        -webkit-box-shadow: -1px 1px 9px -1px rgba(0,0,0,0.2);
+        -moz-box-shadow: -1px 1px 9px -1px rgba(0,0,0,0.2);
+    }
+
+    .buscador{
+        border: 1px solid lightgray;
+        border-radius: 20px;
+        width: 82%;
+    }
+
+    aside section article span{
+        display: block;
+        width: 100%;
+        margin-top: -3px;
+        margin-bottom: 15px;
+        padding: 10px 0;
+        border-radius: 10px;
+    }
+    aside section article ul li{
+        text-align: left;
+        border-bottom: 1.5px dotted rgb(108, 108, 108);
+        padding: 8px 0 3px 0;
+        width: 90%;
+    }
+
+
+    aside section article div input[type="search"]{
+        border: 1px solid gray;
+        line-height: 1.6em;
+        width: 83%;
+        margin: 5px 0;
+        text-indent: 5px;
+    }
+
+    aside section article div input[type="submit"]{
+        background-color: darkgray;
+        border: 1.5px solid gray;
+        border-radius: 50%;
+        margin: 5px 0px;
+        aspect-ratio: 1;
+    }
